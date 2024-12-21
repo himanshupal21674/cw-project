@@ -36,30 +36,45 @@ const WrapperSecond = () => {
             />
           </div>
         </div>
-
       </div>
 
-         <div className="mt-12">
+      <div className="mt-12">
         <div className="flex items-center text-3xl mb-2 text-center">
           <hr className="w-[35%] ml-10" />
           <h1 className="w-[40%] uppercase">BUY IT YOUR WAY</h1>
           <hr className="w-[35%]  mr-10" />
         </div>
-        <div className="flex gap-4">
-          <div className="mx-32 flex gap-4 mt-6">
-            <img
-              className="flex-[1] size-1/2 h-[90%]"
-              src="https://static1.lenskart.com/media/desktop/img/June22/contact-lens-more.jpg"
-            />
-            <img
-              className="flex-[1] size-1/2 h-[90%]"
-              src="https://static1.lenskart.com/media/desktop/img/June22/contact-lens-more-1.jpg"
-            />
+        <div className="mt-6 px-32">
+          <div className="flex gap-4">
+            <div>
+              <img
+                className=""
+                src="https://static5.lenskart.com/media/uploads/bbbgt6.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className=""
+                src="https://static5.lenskart.com/media/uploads/bochat1.jpg"
+              />
+            </div>
+          </div>
+          <div className="flex gap-4 mt-6">
+            <div>
+              <img
+                className=""
+                src="https://static1.lenskart.com/media/desktop/img/Aug21/Desktop/hto.jpg"
+              />
+            </div>
+            <div>
+              <img
+                className=""
+                src="https://static1.lenskart.com/media/desktop/img/Aug21/Desktop/stores.jpg"
+              />
+            </div>
           </div>
         </div>
-
       </div>
-
     </div>
   );
 };
