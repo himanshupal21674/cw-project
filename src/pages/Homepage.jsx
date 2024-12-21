@@ -9,6 +9,7 @@ import Explore from '../components/Explore'
 import Wrappers from '../components/Wrappers'
 import WrapperSecond from '../components/WrapperSecond'
 
+
 const Homepage = () => {
   return (
     <div className='container'>
