@@ -108,4 +108,4 @@ export const wrappers = [
 
 ]
 
-
+export const FOOTER_HEADING = "Lenskart is the leading e-commerce portal for eyewear in India. It has revolutionised the eyewear industry in the country with its omni-channel approach. From an ever-growing number of offline stores across major cities in the country to innovative integration of technology while purchasing online, Lenskart caters to every customer with several deals and offers."
