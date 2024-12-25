@@ -1,14 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import { subnavData } from "../utils/constant";
 
 function Subnav() {
-
+const [hoverItem,setHoverItem] = useState('');
   return (
     <div className="bg-[#faf9f7] w-full">
     <div className="px-8">
     <div className="flex items-center justify-between">
-        <div className="flex items-center gap-4 text-[#232235] font-semibold">
-          <a href="">EYEGLASSES</a>
+        <div className="flex items-center gap-4 text-[#232235] font-semibold relative">
+          <a href="" onMouseOver={()=>setHoverItem('eyeglasses')} onMouseLeave={()=>setHoverItem('')}>EYEGLASSES</a>
           <a href="">SCREEN GLASSES</a>
           <a href="">KIDS GLASSES</a>
           <a href="">CONTACT LENSES</a>
@@ -16,6 +16,9 @@ function Subnav() {
           <a href="">HOME EYE-TEST</a>
           <a href="">STORE LOCATOR</a>
         </div>
+        {hoverItem==='eyeglasses' && <div
+        className="border border-red-700 w-screen h-80 absolute top-1/4 left-0"
+        ></div>}
         <div className="flex items-center gap-1">
           <div>
             <img
